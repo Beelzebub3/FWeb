@@ -1,2 +1,2 @@
 # FWeb
-show dde bola
+show de bola

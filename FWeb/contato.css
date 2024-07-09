@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    background-image: url(./img/amigo.png);
+    text-align: center;
+    font-family: serif;
+}
+h3{
+    border-bottom: 2px solid gray;
+}
+figure{
+    text-align: center;
+}
+#honored_one{
+    width: 250px; height: 250px;
+}
+#idade{
+    text-align: center;
+}

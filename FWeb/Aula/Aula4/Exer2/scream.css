@@ -26,6 +26,6 @@ img {
 footer p {
     text-align: center;
 }
-table, th, td {
-    border:1px solid black
+table th, td {
+    border-bottom:1px solid black;
 }

@@ -1,0 +1,30 @@
+.menu-opc ul{
+    font-size: 20px;
+}
+.menu-opc a{
+    color: #003366;
+}
+body{
+    font-family: monospace;
+    color: purple;
+}
+#logo{
+    width: 400px;
+    height: 40px;
+}
+.containers{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.menu-opc{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.menu-opc ul li{
+    display: inline;
+    margin-left: 20px;
+}

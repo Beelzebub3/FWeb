@@ -1,0 +1,63 @@
+.menu-opc ul{
+    font-size: 20px;
+}
+.menu-opc a{
+    color: #003366;
+}
+#logo{
+    width: 300px;
+    height: 100px;
+}
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+.menu-opc{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.menu-opc ul li{
+    display: inline;
+    margin-left: 20px;
+}
+#lupinha
+{
+    width: 20px;
+    height: 20px;
+}
+.busca, .menu-conteudo{
+    background-color: plum;/*negrito*/
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+}
+.busca h2,
+.busca form,
+.menu-conteudo h2 {
+    margin: 10px;
+}
+.menu-conteudo li {
+    background-color: aliceblue;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-conteudo a{
+    color: darkmagenta;
+}
+.menu-conteudo
+{   clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.busca input{
+    vertical-align: middle;
+}
+.destaque{
+    margin-top: 10px;
+}

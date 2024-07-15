@@ -1,18 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
 .menu-opc ul{
     font-size: 20px;
 }
 .menu-opc a{
     color: #003366;
 }
-body{
-    font-family: monospace;
-    color: purple;
-}
 #logo{
-    width: 400px;
-    height: 40px;
+    width: 300px;
+    height: 100px;
 }
-.containers{
+.container{
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -27,4 +27,35 @@ body{
 .menu-opc ul li{
     display: inline;
     margin-left: 20px;
+}
+.painel{
+    width: 40%;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.aula1{
+    float: left;
+    background-color: crimson;
+}
+.aula2{
+    float: right;
+    background-color: dodgerblue;
+}
+.painel li{
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-size: 20px;
+}
+
+.painel a {
+    color: purple;
+    font-size: medium;
+    text-align: center;
 }

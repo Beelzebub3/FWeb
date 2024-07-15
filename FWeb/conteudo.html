@@ -4,31 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conteúdo</title>
+    <link rel="stylesheet" href="./css/conteudo.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">Página Principal</a>
-            <a href="./contato.html">Contato</a>
-            <a href="./conteudo.html">Conteudo</a>
-            <a href="./blog.html">Blog</a>
+    <header class="container">
+        <nav class="menu-opc">
+            <ul>
+                <li> <a href="./index.html">Página Principal</a></li>
+                <li> <a href="./contato.html">Contato</a></li>
+                <li><a href="./conteudo.html">Conteudo</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+            </ul>
         </nav>
-        <ol>
-            <li><a href="./Aula/Aula1/Site 1/exemplo1.html">aula1</a></li>
-            <li>
-                <ul>
-                    <li>
-                        <a href="./Aula/Aula2/index.html">Exer1</a>
-                    </li>
-                    <li>
-                    <a href="./Aula/Aula2/index2.html">Exer2</a>
-                    </li>
-                    <li>
-                        <a href="./Aula/Aula2/index3.html">Exer3</a>
-                        </li>
-                </ul>
-            </li>
-        </ol>
+        <img id="logo" src= "./img/amigo.png" alt="Logo">
     </header>
+    <main>
+        <section id="destaques">
+            <div class="container destaques">
+                <section class="busca">
+                    <h2>Busca</h2>
+                    <form>
+                        <input type="search" name="busca" id="inputlupa">
+                        <input type="image" src="./img/lupa.png" alt="Imagem_Lupa" id="lupinha">
+                    </form>
+                </section>
+                <section class="menu-conteudo">
+                    <h2>Menu</h2>
+                    <nav>
+                        <ul>
+                        <li>Aula 1 <ul><li><a href="./Aula/Aula1/Site 1/exemplo1.html">Exemplo</a></li></ul> </li>
+                        <li>Aula 2 <ul>
+                            <li><a href="./Aula/Aula2/index.html">Exer1</a></li>
+                            <li><a href="./Aula/Aula2/index2.html">Exer2</a></li>
+                            <li><a href="./Aula/Aula2/index3.html">Exer3</a></li>
+                        </ul> </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

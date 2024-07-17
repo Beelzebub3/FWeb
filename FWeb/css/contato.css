@@ -3,7 +3,7 @@ body{
     color: white;
 }
 h1{
-    background-image: url(./img/amigo.png);
+    background-image: url(./amigo.png);
     text-align: center;
     font-family: serif;
     padding: 10px;
@@ -21,7 +21,18 @@ p{
 figure{
     text-align: center;
     padding: 15px; margin: 30px;
+    border-radius: 20px;
 }
-#honored_one{
-    margin-left: auto; margin-right: auto; width: 550px;
+img{
+    margin-left: auto; margin-right: auto; width: 300px;
+    border-radius: 20px;
+}
+p::first-letter{
+    font-weight: bold;
+}
+h2+p{
+    text-indent: 0px;
+}
+p::first-line{
+    font-stretch: small-caps;
 }

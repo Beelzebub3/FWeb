@@ -3,10 +3,20 @@ body{
     color: black;
     background: rgb(22,15,51);
     background: linear-gradient(0deg, rgba(22,15,51,1) 0%, rgba(159,27,27,1));
-    height: 810px;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
 }
 header {
+    height: 20%;
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    height: 65%;
+}
+footer {
+    height: 15%;
+    clear: both;
 }
 .menu-opc ul{
     font-size: 20px;
@@ -21,8 +31,8 @@ header {
     color: crimson;
 }
 .logo{
-    width: 150px;
-    height: 150px;
+    width: 6,8%;
+    height: 6,8%;
     border-radius: 100%;
     box-shadow: 0px 0px 20px 5px gold;
     margin-bottom: 1%;
@@ -69,9 +79,39 @@ header {
     background-color: blueviolet;
     background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
 }
+.aula5{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula6{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula7{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula8{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula9{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula10{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
+}
 .painel li{
     display: inline-block;
-    width: 30%;
+    width: 20%;
     vertical-align: top;
     margin: 2px;
     padding-bottom: 10px;
@@ -99,6 +139,6 @@ h2{
     width: 40%;
 }
 img{
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: auto;
 }

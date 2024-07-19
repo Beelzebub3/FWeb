@@ -4,7 +4,7 @@
 }
 .logo{
     justify-content: center;
-    width: 70%;
+    width: 60%;
     height: auto;
 }
 .menu-opc {
@@ -27,5 +27,5 @@
     width: 30%;
 }
 .painel img {
-    width: 100%;
+    width: 40%;
 }

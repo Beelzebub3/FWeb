@@ -1,6 +1,9 @@
-
+body {
+    background-image: url(../Aula5/img/Speedwagon.png);
+    size: 100%;
+}
 .container{
-    margin: 20px;
+    margin-left: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 500px;
@@ -11,53 +14,6 @@
     height: 50px;
     margin-left: 20px;
 }
-body {
-    background-image: url(../Aula5/img/Speedwagon.png);
-}
 .boton {
     color: red;
 }
-
-/* Popup container */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  /* The actual popup (appears on top) */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 500px;
-    height: 400px;
-    padding: 8px 0;
-    position: absolute;
-  }
-  
-  /* Popup arrow */
-  .popup .popuptext::after {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-  }
-  
-  /* Toggle this class when clicking on the popup container (hide and show the popup) */
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
-  }
-  
-  /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }

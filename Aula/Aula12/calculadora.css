@@ -1,0 +1,19 @@
+body {
+    background-image: url(../Aula5/img/Speedwagon.png);
+    size: 100%;
+}
+.container{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 500px;
+    height: 200px;
+}
+.display {
+    width: 480px;
+    height: 50px;
+    margin-left: 20px;
+}
+.boton {
+    color: red;
+}

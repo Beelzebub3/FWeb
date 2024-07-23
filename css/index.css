@@ -1,0 +1,151 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background: rgb(22,15,51);
+    background: linear-gradient(0deg, rgba(22,15,51,1) 0%, rgba(159,27,27,1));
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+header {
+    height: 20%;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    height: 65%;
+}
+footer {
+    height: 15%;
+    clear: both;
+}
+.menu-opc ul{
+    font-size: 20px;
+}
+.menu-opc a{
+    color: #003366;
+}
+.menu-opc a:hover{
+    color: gold;
+}
+.menu-opc a:active{
+    color: crimson;
+}
+.logo{
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 5px gold;
+    margin-bottom: 1%;
+}
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.menu-opc{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.menu-opc ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.painel{
+    width: 48%;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(80, 7, 44);
+}
+.aula1{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet, crimson);
+}
+.aula2{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet, crimson)
+}
+.aula3{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet, rgb(178, 25, 55))
+}
+.aula4{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula5{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula6{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula7{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula8{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula9{
+    float: left;
+    background-color: blueviolet;
+    background: linear-gradient(5deg, blueviolet,  rgb(178, 25, 55))
+}
+.aula10{
+    float: right;
+    background-color: blueviolet;
+    background: linear-gradient(-5deg, blueviolet,  rgb(178, 25, 55))
+}
+.painel li{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.painel li:hover
+{
+    box-shadow: 10px 10px 5px whitesmoke;
+    transition: 0.7s;
+    background-color: rgba(218, 165, 32, 0.8);
+    transform: scale(1.08);
+}
+
+.painel h2{
+    font-size: 20px;
+    text-shadow: 3px 3px 2px rgb(80, 7, 44);
+}
+
+.painel a {
+    color: purple;
+    font-size: medium;
+    text-align: center;
+}
+h2{
+    width: 40%;
+}
+.icon{
+    width: 15%;
+    height: auto;
+}
+.destaque img{
+    width: 500px;
+    height: 200px;
+}
+.destaque{
+    text-align: center;
+}

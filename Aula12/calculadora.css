@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background: rgb(22,15,51);
+    background: linear-gradient(0deg, rgba(22,15,51,1) 0%, rgba(159,27,27,1));
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+main {
+    height: 70%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 500px;
+    height: 500px;
+}
+.display {
+    width: 480px;
+    height: 50px;
+}
+.boton {
+    color: red;
+}

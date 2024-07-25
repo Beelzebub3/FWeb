@@ -1,19 +1,38 @@
 body {
-    background-image: url(../Aula5/img/Speedwagon.png);
-    size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background: rgb(22,15,51);
+    background: linear-gradient(0deg, rgba(22,15,51,1) 0%, rgba(159,27,27,1));
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+main {
+    height: 70%;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 6%;
 }
 .container{
-    margin-left: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 500px;
-    height: 200px;
+    height: 600px;
 }
 .display {
-    width: 480px;
-    height: 50px;
-    margin-left: 20px;
+    width: 470px;
+    height: 100px;
+    margin: 1% 0px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px rgb(80, 7, 44);
+    border-radius: 2%;
+    font-size: larger;
 }
 .boton {
-    color: red;
+    color: black;
+    border-radius: 5%;
+    margin: 1% 0px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px rgb(80, 7, 44);
+    font-size: larger;
 }

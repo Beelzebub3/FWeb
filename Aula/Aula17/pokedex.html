@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./pokedex.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <figure>
+                <img id="img_pokedex" src="./img/pokedex.png" alt="imagem_pokedex">
+            </figure>
+
+            <figure>
+                <img id="img_pokemon" src="#" alt="imagem_pokemon">
+            </figure>
+
+            <audio id="poke_cry" autoplay=""></audio>
+
+            <h1 class="poke_data1">
+                <span id="num_poke">?</span>
+                <span>-</span>
+                <span id="nome_poke">?</span>
+            </h1>
+
+            <form class="form_busca">
+                <input type="text" id="input_name">
+            </form>
+
+            <h1 class="poke_data2">
+                <span>Tipo:</span> <span id="tipo">feio</span> <br>
+                <p><span>Peso:</span> <span id="peso">gordo</span> Kg</p>
+                <p><span>Altura:</span> <span id="altura">baixo</span> Cm</p>
+            </h1>
+
+            <div class="buttons">
+                <button id="Preview" class="button">Anterior<</button>
+                <button id="Next" class="button">>Proximo</button>
+            </div>
+
+        </div>
+        <audio src="./img/poke_song.mp3" id="audioPlayer" loop="loop"></audio>
+
+    </main>
+</body>
+<script src="./pokedex.js"></script>
+</html>

@@ -1,17 +1,17 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: white;
     background: rgb(22,15,51);
-    background: linear-gradient(0deg, rgba(22,15,51,1) 0%, rgba(159,27,27,1));
+    background: linear-gradient(0deg, rgb(6, 40, 14) 0%, rgb(0, 0, 0));
     height: 100%;
     width: 100%;
-    margin: 0%;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
-main {
+.maquina {
     height: 70%;
     margin-left: 35%;
-    margin-top: 1%;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
 }
 .container{
     display: grid;
@@ -24,15 +24,24 @@ main {
     height: 100px;
     margin: 1% 0px;
     padding: 10px;
-    box-shadow: 10px 10px 5px rgb(80, 7, 44);
+    box-shadow: 10px 10px 10px rgba(219, 219, 219, 0.237);
     border-radius: 2%;
-    font-size: larger;
+    font-size:larger;
 }
 .boton {
-    color: black;
+    color: rgb(54, 177, 88);
     border-radius: 5%;
     margin: 1% 0px;
     padding: 10px;
-    box-shadow: 10px 10px 5px rgb(80, 7, 44);
-    font-size: larger;
+    box-shadow: 10px 10px 10px rgba(219, 219, 219, 0.237);
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.886);
+}
+.boton:hover {
+    transition: 0.5s;
+    box-shadow: inset 2px 2px 2px rgb(36, 235, 92);
+    color: rgb(0, 255, 72);;
+}
+.titulo{
+    text-align: center;
 }

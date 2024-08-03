@@ -18,20 +18,21 @@
                 <img id="img_pokemon" src="#" alt="imagem_pokemon">
             </figure>
 
-            <audio id="poke_cry" autoplay=""></audio>
-
             <h1 class="poke_data1">
-                <span id="num_poke">?</span>
+                <span id="num_poke">Num</span>
                 <span>-</span>
-                <span id="nome_poke">?</span>
+                <span id="nome_poke">nome</span>
             </h1>
 
             <form class="form_busca">
-                <input type="text" id="input_name">
+                <input type="text" id="input_name" value=""
+                placeholder="Eschola um Pokemon">
             </form>
 
             <h1 class="poke_data2">
-                <span>Tipo:</span> <span id="tipo">feio</span> <br>
+                <div>Tipo:
+                    <span id="tipo1" ><img src="" id="imgtype1"></span> <span id="tipo2" ><img id="imgtype2" src=""></span>
+                </div>
                 <p><span>Peso:</span> <span id="peso">gordo</span> Kg</p>
                 <p><span>Altura:</span> <span id="altura">baixo</span> Cm</p>
             </h1>
@@ -41,8 +42,9 @@
                 <button id="Next" class="button">>Proximo</button>
             </div>
 
+            <audio id="pokechoro" src="" autoplay></audio>
+            <audio src="./img/poke_song.mp3" autoplay></audio>
         </div>
-        <audio src="./img/poke_song.mp3" id="audioPlayer" loop="loop"></audio>
 
     </main>
 </body>

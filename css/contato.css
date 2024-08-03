@@ -7,7 +7,6 @@ body{
     margin: 0%;
 }
 h1{
-    background-image: url(./amigo.png);
     text-align: center;
     font-family: serif;
     padding: 10px;
@@ -48,6 +47,10 @@ video {
     width: 50%;
     height: auto;
 }
-.texto {
-    margin: 2%;
+.parallax-window {
+    min-height: 200px;
+    background: transparent;
+}
+.parallax-window{
+    padding: 5%;
 }

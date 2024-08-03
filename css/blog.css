@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background: rgb(22,15,51);
+    background: linear-gradient(0deg, rgba(22,15,51,1) 0%, rgba(159,27,27,1));
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 65%;
+}
+header{
+    height: 20%;
+}
+footer {
+    height: 15%;
+}
+img {
+    height: 200px;
+    border-radius: 10%;
+}
+.item
+{
+    height: 250px;
+    width: 200px;
+    margin-left: 10px;
+}
+.icones:hover {
+    transition: 0.7s;
+    transform: scale(1.05);
+}
+.menu-opc ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.menu-opc{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}

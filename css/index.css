@@ -149,3 +149,16 @@ h2{
 .destaque{
     text-align: center;
 }
+footer {
+    padding: 2%;
+    font-size:small;
+    color: whitesmoke;
+    text-shadow: 3px 3px 2px rgb(80, 7, 44);
+
+    text-align: center;
+    gap: 20px;
+}
+.little_icon {
+    height: 40px;
+    margin: 10px;
+}

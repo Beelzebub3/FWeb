@@ -1,0 +1,13 @@
+/*Enquanto o Mouse estiver sob o link*/
+a:hover{
+    background-color: chartreuse;
+}
+/*Active = Durante um Clique*/
+a:active
+{
+    background-color: crimson;
+}
+/*Visited = Já foi clicado*/
+a:visited{
+    background-color: cyan;
+}

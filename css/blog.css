@@ -12,9 +12,6 @@ main{
 header{
     height: 20%;
 }
-footer {
-    height: 15%;
-}
 img {
     height: 200px;
     border-radius: 10%;
@@ -43,4 +40,18 @@ img {
     margin-right: auto;
     margin-left: auto;
     position: relative;
+}
+footer {
+    height: 20%;
+    padding: 3%;
+    font-size:small;
+    color: whitesmoke;
+    text-shadow: 3px 3px 2px rgb(80, 7, 44);
+
+    text-align: center;
+    gap: 20px;
+}
+.little_icon {
+    height: 40px;
+    margin: 10px;
 }

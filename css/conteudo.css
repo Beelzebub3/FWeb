@@ -1,8 +1,10 @@
 html, body{
-    background-color: black;
     height: 100%;
     width: 100%;
     margin: 0%;
+}
+body {
+    background-image: url(/img/P5Joker.jpg);
 }
 .menu-opc ul{
     font-size: 20px;
@@ -43,7 +45,7 @@ header {
 }
 .busca, .menu-conteudo{
     color: black;
-    background-color: red;/*negrito*/
+    background-color: rgb(255, 0, 47);/*negrito*/
     font-weight: bold;
     text-transform: uppercase;
     width: 30%;
